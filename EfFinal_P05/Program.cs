@@ -4,6 +4,9 @@ using Microsoft.Extensions.Configuration;
 
 Console.WriteLine("Hello, World!");
 
+Auth auth = new Auth();
+
+
 /* CONFIGURATION */
 var config = new ConfigurationBuilder()
     .SetBasePath(Directory.GetCurrentDirectory())
@@ -62,8 +65,8 @@ DataBaseClass dbBaseClass = new DataBaseClass(options);
 //    db.SaveChanges();
 //}
 
-dbBaseClass.addBook("Book4", "Author4", "Publisher4", 400, "Style4", new DateTime(400, 4, 4), 4, 400, 4);
-dbBaseClass.removeBook("Book4", "Author4", "Publisher4", 400, "Style4", new DateTime(400, 4, 4), 4, 400, 4);
+//dbBaseClass.addBook("Book4", "Author4", "Publisher4", 400, "Style4", new DateTime(400, 4, 4), 4, 400, 4);
+//dbBaseClass.removeBook(4);
 
 Console.WriteLine("DbChanged\n");
 

@@ -65,5 +65,16 @@ namespace EfFinal_P05
 
             }
         }
+        public void sellBook(int id)
+        {
+            using (var db = new BookDbContext(options1))
+            {
+                var temp = db.Books.FirstOrDefault(x => x.Id == id);
+                db.Remove(temp);
+                db.SaveChanges();
+            }
+            Console.WriteLine("Book with id {id} was sold");
+        }
+
     }
 }

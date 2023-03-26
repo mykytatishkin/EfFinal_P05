@@ -81,3 +81,6 @@ C:\Users\Mykyta\source\repos\EfFinal_P05\EfFinal_P05\obj\Debug\net6.0\refint\EfF
 C:\Users\Mykyta\source\repos\EfFinal_P05\EfFinal_P05\obj\Debug\net6.0\EfFinal_P05.pdb
 C:\Users\Mykyta\source\repos\EfFinal_P05\EfFinal_P05\obj\Debug\net6.0\EfFinal_P05.genruntimeconfig.cache
 C:\Users\Mykyta\source\repos\EfFinal_P05\EfFinal_P05\obj\Debug\net6.0\ref\EfFinal_P05.dll
+C:\Users\Mykyta\source\repos\EfFinal_P05\EfFinal_P05\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Mykyta\source\repos\EfFinal_P05\EfFinal_P05\bin\Debug\net6.0\Auth.cs
+C:\Users\Mykyta\source\repos\EfFinal_P05\EfFinal_P05\bin\Debug\net6.0\auth.json

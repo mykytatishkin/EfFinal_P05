@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jVMWFIGMNVt7ba/4srgdubxQD7q38zkKg6NxjTf53xk7+zVtHsjiWmtdjAcWW1vZF8l7kJjEkBoJkGHjENoVxA==",
+  "dgSpecHash": "MBKDaldQ6LogZPTcR2y5/309DBtm29sEdbDYd4JdeW6A/2HaEkDdCREVBwIg3SoPBh8V6lm8LfQ1zBUydN1vKQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Mykyta\\source\\repos\\EfFinal_P05\\EfFinal_P05\\EfFinal_P05.csproj",
   "expectedPackageFiles": [
@@ -50,6 +50,7 @@
     "C:\\Users\\Mykyta\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\Mykyta\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\Mykyta\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\Mykyta\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\Mykyta\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\Mykyta\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\Mykyta\\.nuget\\packages\\system.configuration.configurationmanager\\5.0.0\\system.configuration.configurationmanager.5.0.0.nupkg.sha512",

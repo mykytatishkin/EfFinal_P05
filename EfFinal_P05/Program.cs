@@ -19,7 +19,7 @@ var options = new DbContextOptionsBuilder<BookDbContext>()
     .Options;
 
 DataBaseClass dbBaseClass = new DataBaseClass(options);
-
+Dictionary<int, string> setFor = new Dictionary<int, string>();
 
 
 //using (var db = new BookDbContext(options))

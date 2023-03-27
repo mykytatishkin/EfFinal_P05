@@ -65,6 +65,26 @@ namespace EfFinal_P05
 
             }
         }
+        public void discountBook(int id)
+        {
+            using (var db = new BookDbContext(options1))
+            {
+                var temp = db.Books.FirstOrDefault(x => x.Id == id);
+                temp.SellPrice -= temp.SellPrice * 0.1
+
+                db.SaveChanges();
+            }
+        }
+        public Dictionary<int, string> setForBook(int id, string user, Dictionary<int, string> SetFor)
+        {
+
+            using (var db = new BookDbContext(options1))
+            {
+                var temp = db.Books.FirstOrDefault(x => x.Id == id);
+                SetFor.Add(temp.Id, user);
+            }
+            return SetFor<int, string>
+        }
         public void sellBook(int id)
         {
             using (var db = new BookDbContext(options1))
